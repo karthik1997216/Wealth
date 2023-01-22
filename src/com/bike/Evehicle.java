@@ -19,11 +19,16 @@ public class Evehicle implements Ebike,Ecar  {
 		System.out.println("speed 100kmph");
 		
 	}
+	public void location() {
+		System.out.println("coimbatore");
+
+	}
 	public static void main(String [] args) {
 		Evehicle e = new Evehicle();
 		e.milege();
 		e.price();
 		e.speed();
+		e.location();
 	}
 
 }
